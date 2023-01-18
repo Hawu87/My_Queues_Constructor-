@@ -35,12 +35,4 @@ class Queue:
         self.length -= 1
         return temp.value
 
-my_queue = Queue(4)
-my_queue.enqueue(3)
-my_queue.enqueue(2)
-my_queue.enqueue(1)
-
-print(my_queue.dequeue(), '\n')
-
-my_queue.print_queue()
 
